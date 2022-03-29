@@ -207,3 +207,11 @@ nav{
     outline: 0;
     border: 1px solid #af0986;
 }
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
