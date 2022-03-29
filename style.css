@@ -40,7 +40,7 @@
 
 header{
     
-    background-image: url(cosmic-world-resources-main/images/cloud.png);
+    background-image: url(cosmic-world-resources/images/cloud.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, .5);
@@ -163,4 +163,47 @@ nav{
 .card a{
     text-decoration: none;
     color: #ff00BE;
+}
+
+/* gallery section */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.photo img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #af0986;
+}
+
+
+/* contact section*/
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.contact-left img{
+    width: 100%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-field{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid #af0986;
 }
