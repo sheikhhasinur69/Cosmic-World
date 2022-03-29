@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.highlight{
+    color: #ff00BE;
+}
+
+.primary-button{
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg,#af0986, #ff00BE);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #fc23c5;
+    position: relative;
+    top: 0;
+}
+
+.primary-button:active{
+    top: 5px;
+    box-shadow: 0 2px 0 #ff00BE;
+}
+
+header{
+    
+    background-image: url(cosmic-world-resources-main/images/cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: overlay;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 15px 10px;
+    
+}
+
+.banner{
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-left h1{
+    font-size: 45px;
+    color: white;
+}
+
+.banner-left p{
+    color: white;
+    font-size: 18px;
+    line-height:1.5;
+    margin: 20px 0;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-right img{
+    width: 100%;
+}
+
+
+/* 
+          Feature section
+                                 */
+.section-title{
+    text-align: center;
+}                                 
+.section-title h2{
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 2px solid #ff00BE ;
+    margin: 50px 0;
+    text-transform: uppercase;
+
+}
+
+
+.feature{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, .2);
+}
+
+.card .card-icon{
+    background-color: #af0986;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    color: white;
+    
+   
+}
+
+
+.card h3{
+    color:#ff00BE;
+    font-size: 25px;
+}
+
+.card p{
+    margin:10px 0;
+    line-height: 1.5;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: #ff00BE;
+}
