@@ -210,8 +210,35 @@ nav{
 
 footer{
     height: 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+/* responsive media */
+
+
+
+@media (max-width:800px) {
+    .banner{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner-left{
+        order: 2;
+        padding: 50px 0 ;
+        margin-top: 10px;
+    }
+    .gallery, .feature, .contact{
+        grid-template-columns: 1fr;
+    }
+    .photo img{
+        width: 380px;
+    }
+}
+
